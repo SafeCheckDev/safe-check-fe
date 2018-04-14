@@ -16,6 +16,7 @@
     "eslint": "./node_modules/.bin/eslint src --ext '.jsx' --ext '.js'"
   },
   "devDependencies": {
+    "enzyme": "^3.3.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.11.0",
