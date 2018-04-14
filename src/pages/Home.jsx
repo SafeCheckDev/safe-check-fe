@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from '../images/safecheck-logo-white.png';
 import { NavLink } from 'react-router-dom';
+import Logo from '../images/safecheck-logo-white.png';
 
 const Home = () => (
   <div>
