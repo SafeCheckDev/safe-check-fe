@@ -1,28 +1,19 @@
 import React, { Component } from 'react';
-import './App.css';
-import {
-  Route,
-  NavLink,
-  HashRouter
-} from "react-router-dom";
-import Home from "./pages/Home";
-import Stuff from "./pages/Stuff";
-import Contact from "./pages/Contact";
+import { Route, HashRouter } from 'react-router-dom';
+import Home from './pages/Home';
+import Forms from './pages/Forms';
+import Contact from './pages/Contact';
+import Header from './components/Header/Header';
 
 class App extends Component {
   render() {
     return (
       <HashRouter>
         <div>
-          <h1>SafeCheck</h1>
-          <ul className="header">
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/stuff">Forms</NavLink></li>
-            <li><NavLink to="/contact">Contact</NavLink></li>
-          </ul>
-          <div className="content">
+          <Header />
+          <div>
             <Route exact path="/" component={Home}/>
-            <Route path="/stuff" component={Stuff}/>
+            <Route path="/forms" component={Forms}/>
             <Route path="/contact" component={Contact}/>
           </div>
         </div>
