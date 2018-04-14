@@ -10,9 +10,9 @@ const App = () => (
     <div>
       <Header />
       <div>
-        <Route exact path="/" component={Home}/>
-        <Route path="/forms" component={Forms}/>
-        <Route path="/contact" component={Contact}/>
+        <Route exact path="/" component={Home} />
+        <Route path="/forms" component={Forms} />
+        <Route path="/contact" component={Contact} />
       </div>
     </div>
   </HashRouter>
