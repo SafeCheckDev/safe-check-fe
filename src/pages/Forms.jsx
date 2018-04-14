@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Forms extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Forms</h1>
-      </div>
-    );
-  }
-}
+const Forms = () => (
+  <div>
+    <h1>Forms</h1>
+  </div>
+);
 
 export default Forms;
